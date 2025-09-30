@@ -9,18 +9,7 @@
 
 ## 🛠️ Tech Stack  
 
-<p align="left">
-  <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />  
-  <!-- Backend & Frameworks -->
-  <img src="https://skillicons.dev/icons?i=spring,hibernate,nodejs" />  
-  <!-- Frontend -->
-  <img src="https://skillicons.dev/icons?i=react,tailwind,figma" />  
-  <!-- Databases & Cloud -->
-  <img src="https://skillicons.dev/icons?i=mysql,aws,azure,googlecloud,oracle" />  
-  <!-- Tools -->
-  <img src="https://skillicons.dev/icons?i=git,github,docker,maven" />  
-</p>
+<img src="https://skillicons.dev/icons?i=java,python,cpp,javascript,html,css,spring,hibernate,nodejs,react,tailwind,figma,mysql,aws,azure,googlecloud,git,github,docker,maven" />
 
 ---
 
