@@ -1,64 +1,80 @@
-# 👋 Hi, I’m Sri Villiam Sai  
+# 👨‍💻 SRI VILLIAM SAI A  
 
-🚀 Software Engineer | Backend Developer | Cloud Enthusiast  
-Building scalable systems with **Java + Spring Boot**, crafting **Apple-inspired frontends**, and exploring the future of **AI + Cloud**.  
+**Aspiring Software Developer | Java | Python | AWS | AI/ML & Full Stack**  
 
----
-
-## 🧑‍💻 About Me
-- 💡 Passionate about **Microservices, Cloud, and AI**
-- 🎯 Currently building **ZidioConnect** (multi-module microservices ecosystem)
-- 🌱 Learning **Oracle Cloud Infrastructure (OCI), Data Science & AI Services**
-- 🖥️ Designing my personal **Apple-style developer portfolio**
-- 📚 Always learning — DSA, System Design, and Cloud Architectures  
+🚀 Passionate about building **scalable microservices**, **AI-powered apps**, and **cloud-native solutions**.  
+📍 Focused on **Java Backend + Cloud** while exploring **AI/ML, Data Science, and modern frontend design**.  
 
 ---
 
-## 🚀 Tech Stack
-**Languages:** Java, Python, JavaScript, SQL  
-**Backend:** Spring Boot, Hibernate, REST APIs, Microservices  
-**Frontend:** HTML, CSS, Tailwind, React (Vite)  
-**Cloud & Tools:** Oracle Cloud (OCI), MySQL, Docker, Git/GitHub, Swagger, Maven  
-**Extras:** Data Science (OCI AI, Pandas, NumPy), Figma (UI/UX), AI Prompts  
+## 🛠️ Tech Stack  
+
+<p align="center">
+  <!-- Languages -->
+  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />  
+  <!-- Backend & Frameworks -->
+  <img src="https://skillicons.dev/icons?i=spring,hibernate,nodejs" />  
+  <!-- Frontend -->
+  <img src="https://skillicons.dev/icons?i=react,tailwind,figma" />  
+  <!-- Databases & Cloud -->
+  <img src="https://skillicons.dev/icons?i=mysql,aws,azure,googlecloud,oracle" />  
+  <!-- Tools -->
+  <img src="https://skillicons.dev/icons?i=git,github,docker,maven" />  
+</p>
 
 ---
 
-## 📌 Projects
+## 📂 Projects  
 
-### 🔹 ZidioConnect – Microservices Platform
-A multi-service ecosystem with **student, recruiter, admin, analytics, jobpost, payment, BNPL, notification** and more.  
-➡️ Includes **API Gateway, Eureka Server, Config Server, and MySQL DB integration**.  
+🔹 **ZidioConnect – Microservices Platform**  
+> End-to-end platform with **student, recruiter, admin, analytics, jobpost, payment, BNPL, notification services**.  
+> Features: **Eureka, API Gateway, Config Server, MySQL Integration**.  
 
-### 🔹 PitStop – Fuel Delivery & Roadside Assistance App  
-Fuel delivery + emergency roadside assistance with **BNPL integration**.  
+🔹 **PitStop – Fuel Delivery & Roadside Assistance App**  
+> Provides **fuel delivery, mechanic & emergency services**, with **BNPL payment options**.  
 
-### 🔹 SREN AI – Smart Recommendation using Emotion Recognition  
-AI project using **facial emotion recognition** to recommend personalized content.  
+🔹 **SREN AI – Smart Recommendation using Emotion Recognition**  
+> Uses **CNN + RNN + LSTM** to detect emotions and recommend personalized content.  
 
-### 🔹 Apple-Style Portfolio Website  
-Minimal, elegant personal site with smooth scroll animations, project sliders, and **dark/light mode toggle**.  
-
----
-
-## 🏆 Certifications & Learning
-- Oracle Cloud Infrastructure – **AI Foundations Associate**
-- Oracle Cloud Infrastructure – **Data Science Professional (1Z0-1110-25)**
-- Infosys Springboard – **Java, DBMS, Angular, etc.**
-- IBM Cloud / Software Engineering modules  
+🔹 **Apple-Style Portfolio Website**  
+> Minimalist, elegant site inspired by Apple’s design system with **smooth animations & light/dark mode**.  
 
 ---
 
-## 📊 GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=srivilliamsai&theme=dark&hide_border=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srivilliamsai&layout=compact&theme=dark)  
+## 🏆 Certifications  
+
+📌 **Oracle Cloud Infrastructure**  
+- OCI **Multicloud Architect Professional** (2025–27)  
+- OCI **Data Science Professional** (2025–27)  
+- OCI **Developer Professional** (2025–27)  
+
+📌 **Infosys Springboard (2025)**  
+- HTML5, CSS3, JavaScript  
+- Programming Using Java  
+- Angular, AWS, DBMS, Deep Learning for Developers, Data Science  
+
+📌 **Others**  
+- HackerRank – Java (Basic) Certificate  
+
+👉 *(I’ll keep adding screenshots & certificate proofs here soon!)*  
 
 ---
 
-## 🌍 Connect with Me
-- 🌐 [Portfolio Website](#) *(coming soon — Apple-style design)*  
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
-- 📧 Email: yourmail@example.com  
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=srivilliamsai&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srivilliamsai&layout=compact&theme=radical" alt="Top Langs" />
+</p>
 
 ---
 
-✨ *“Code. Design. Build. Learn. Repeat.”* ✨
+## 🌍 Let’s Connect  
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/srivilliamsai)  
+- 🌐 Portfolio *(coming soon – Apple-inspired)*  
+- 📧 Email: **yourmail@example.com**  
+
+---
+
+✨ *“Code. Design. Learn. Build. Repeat.”* ✨
