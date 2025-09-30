@@ -35,7 +35,8 @@
 📌 **Oracle Cloud Infrastructure**  
 - OCI **Multicloud Architect Professional** (2025–27)  
 - OCI **Data Science Professional** (2025–27)  
-- OCI **Developer Professional** (2025–27)  
+- OCI **Developer Professional** (2025–27)
+- OCI **AI Foundations Associate** (2025-27)
 
 📌 **Infosys Springboard (2025)**  
 - HTML5, CSS3, JavaScript  
