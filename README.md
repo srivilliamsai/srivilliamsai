@@ -9,7 +9,7 @@
 
 ## 🛠️ Tech Stack  
 
-<p align="center">
+<p align="left">
   <!-- Languages -->
   <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />  
   <!-- Backend & Frameworks -->
@@ -73,7 +73,7 @@
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/srivilliamsai)  
 - 🌐 Portfolio *(coming soon – Apple-inspired)*  
-- 📧 Email: **yourmail@example.com**  
+- 📧 Email: **srivilliamsai@gmail.com**  
 
 ---
 
