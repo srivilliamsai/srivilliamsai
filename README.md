@@ -50,12 +50,12 @@ class Developer {
 ## `./current-focus.sh`
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 
 pursuing_certifications() {
     echo "Oracle Cloud Infrastructure:"
-    echo "  ✓ Multicloud Architect"
-    echo "  ✓ AI Foundations"
+    echo "   Multicloud Architect"
+    echo "   AI Foundations"
     echo "  ⧗ Data Science | Developer"
 }
 
