@@ -2,9 +2,9 @@
 
 # SRI VILLIAM SAI A
 
-**I build Java and Spring Boot backends and native iOS apps with Swift and SwiftUI. My cloud work includes AWS and Google Cloud.**
+**I build Java backends and native iOS apps with SwiftUI, and work with AWS and Google&nbsp;Cloud.**
 
-My projects span customer APIs, carbon tracking, and iOS apps such as Glassora and Remolad.
+My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora and Remolad.
 
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" />
@@ -17,46 +17,34 @@ My projects span customer APIs, carbon tracking, and iOS apps such as Glassora a
 </p>
 
 <p>
-  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-srivilliamsai-0A66C2?style=for-the-badge" /></a>
-  <a href="https://srivilliamsai.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-24292F?style=for-the-badge" /></a>
-  <a href="https://x.com/srivilliamsai"><img alt="X" src="https://img.shields.io/badge/X-srivilliamsai-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
+  <a href="https://srivilliamsai.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge" /></a>
+  <a href="https://x.com/srivilliamsai"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
 </p>
 
 </div>
 
 <table align="center">
-<tr>
-<td width="33%" valign="top">
-
-### Hire
-
-Java backend, native iOS, and full-stack work with Spring Boot, SwiftUI, and React.
-
-[Talk on LinkedIn →](https://www.linkedin.com/in/srivilliamsai/)
-
-</td>
-<td width="33%" valign="top">
-
-### Contribute
-
-Have feedback on a service boundary or local setup? Open an issue.
-
-[CRM issues](https://github.com/srivilliamsai/CRM_Application/issues) · [PitStop issues](https://github.com/srivilliamsai/pitstop-backend/issues)
-
-</td>
-<td width="33%" valign="top">
-
-### Reach out
-
-Happy to discuss backend systems, iOS development, and cloud projects.
-
-[Portfolio →](https://srivilliamsai.vercel.app/)
-
-</td>
-</tr>
+  <thead>
+    <tr>
+      <th width="33%" scope="col" align="center">Hire</th>
+      <th width="34%" scope="col" align="center">Contribute</th>
+      <th width="33%" scope="col" align="center">Reach out</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">Java backends and native iOS apps.</td>
+      <td align="center" valign="top">Report bugs or suggest improvements.</td>
+      <td align="center" valign="top">Discuss backend, iOS, or cloud work.</td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/">Talk on LinkedIn →</a></td>
+      <td align="center" valign="top"><a href="https://github.com/srivilliamsai/CRM_Application/issues">CRM issues</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues">PitStop issues</a></td>
+      <td align="center" valign="top"><a href="https://srivilliamsai.vercel.app/">Portfolio →</a></td>
+    </tr>
+  </tbody>
 </table>
-
-<br />
 
 <div align="center">
 
@@ -68,8 +56,6 @@ Happy to discuss backend systems, iOS development, and cloud projects.
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
 </div>
-
-<br />
 
 ## 1. CRM Application
 
@@ -171,29 +157,23 @@ flowchart TD
 </tr>
 </table>
 
-<br />
-
 ## 4. Swift and iOS development
 
 **Remolad.** One of my native iOS projects.
 
 **Glassora.** I built and published a SwiftUI wallpaper app with category browsing, previews, and favorites. [App Store](https://apps.apple.com/in/app/glassora-wallpapers-hd-4k/id6777764126) · [Launch write-up](https://dev.to/srivilliamsai/i-just-launched-my-first-ios-app-after-16-days-in-app-review-f5b)
 
-## 5. AWS and Google Cloud
+## 5. AWS and Google&nbsp;Cloud
 
 **AWS.** I host my portfolio on AWS Amplify and run its assistant backend on AWS Lambda. [Deployment notes](https://github.com/srivilliamsai/portfolio/blob/main/docs/AMPLIFY_RELEASE.md)
 
 **Google Cloud and Firebase.** I work with Google Cloud and use Firebase to manage Glassora’s wallpaper catalog. [Glassora case study](https://main.d229cwpntq8yz1.amplifyapp.com/glassora)
-
-<br />
 
 ## Writing and background
 
 **Writing.** I wrote about using Kafka events to verify activities and regenerate a resume in a Node.js microservices project. [Project architecture](https://github.com/srivilliamsai/resume-ecosystem-node#%EF%B8%8F-architecture) · [DEV Community article (JSON)](https://dev.to/api/articles/3406775)
 
 **Background.** My Infosys internship project included building the Spring Boot API and React dashboard for the carbon footprint tracker. [Internship project](case-studies/carbon-footprint.md)
-
-<br />
 
 <div align="center">
 
