@@ -24,24 +24,24 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 
 </div>
 
-<table align="center">
+<table align="center" width="100%">
   <thead>
     <tr>
       <th width="33%" scope="col" align="center">Hire</th>
-      <th width="34%" scope="col" align="center">Contri<wbr>bute</th>
+      <th width="34%" scope="col" align="center">Contribute</th>
       <th width="33%" scope="col" align="center">Reach out</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" valign="top">Java and iOS.</td>
-      <td align="center" valign="top">Share feedback.</td>
-      <td align="center" valign="top">Talk tech.</td>
+      <td align="center" valign="top">Java &amp; iOS</td>
+      <td align="center" valign="top">Open an issue</td>
+      <td align="center" valign="top">Talk tech</td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a></td>
-      <td align="center" valign="top"><a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a></td>
-      <td align="center" valign="top"><a href="https://srivilliamsai.vercel.app/">Portfolio</a></td>
+      <td align="center" valign="top"><sub><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a></sub></td>
+      <td align="center" valign="top"><sub><a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a>&nbsp;·&nbsp;<a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a></sub></td>
+      <td align="center" valign="top"><sub><a href="https://srivilliamsai.vercel.app/">Portfolio</a></sub></td>
     </tr>
   </tbody>
 </table>
@@ -51,7 +51,7 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 | CRM | Carbon | PitStop |
 |:---:|:---:|:---:|
 | Lookup HTTP 200 | Log saved | Order saved |
-| [Gateway test](case-studies/crm-application.md#try-it-locally) | [Storage tests](case-studies/carbon-footprint.md#try-it-locally) | [API tests](case-studies/pitstop.md#try-it-locally) |
+| [Gateway](case-studies/crm-application.md#try-it-locally) | [Storage](case-studies/carbon-footprint.md#try-it-locally) | [API test](case-studies/pitstop.md#try-it-locally) |
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
