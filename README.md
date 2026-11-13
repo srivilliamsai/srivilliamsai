@@ -28,18 +28,18 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
   <thead>
     <tr>
       <th width="33%" scope="col" align="center">Hire</th>
-      <th width="34%" scope="col" align="center">Contribute</th>
+      <th width="34%" scope="col" align="center">Contri<wbr>bute</th>
       <th width="33%" scope="col" align="center">Reach out</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" valign="top">Java backends and native iOS apps.</td>
-      <td align="center" valign="top">Report bugs or suggest improvements.</td>
-      <td align="center" valign="top">Discuss backend, iOS, or cloud work.</td>
+      <td align="center" valign="top">Java and iOS.</td>
+      <td align="center" valign="top">Share feedback.</td>
+      <td align="center" valign="top">Talk tech.</td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/">LinkedIn</a></td>
+      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a></td>
       <td align="center" valign="top"><a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a></td>
       <td align="center" valign="top"><a href="https://srivilliamsai.vercel.app/">Portfolio</a></td>
     </tr>
@@ -48,9 +48,9 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 
 <div align="center">
 
-| CRM | Carbon Footprint | PitStop |
+| CRM | Carbon | PitStop |
 |:---:|:---:|:---:|
-| Lookup HTTP 200 | Log saved and read | Order saved and listed |
+| Lookup HTTP 200 | Log saved | Order saved |
 | [Gateway test](case-studies/crm-application.md#try-it-locally) | [Storage tests](case-studies/carbon-footprint.md#try-it-locally) | [API tests](case-studies/pitstop.md#try-it-locally) |
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
@@ -137,12 +137,12 @@ A roadside-assistance project with Flutter screens for exploring services and Sp
 **Direct API checks**
 
 - Create and list a fuel order → the new order appeared as pending
-- Query emergency reports by severity → HTTP 200 with authentication
+- Query by severity → HTTP 200 with auth
 
 </td>
 <td width="50%" valign="top">
 
-**Service boundaries**
+**Service routes**
 
 ```mermaid
 flowchart TD
@@ -151,7 +151,7 @@ flowchart TD
     Routes -.-> Emergency["Emergency service"]
 ```
 
-<sub>Direct service checks passed. The gateway returned HTTP 503.</sub>
+<sub>Direct checks passed. Gateway returned HTTP 503.</sub>
 
 </td>
 </tr>
