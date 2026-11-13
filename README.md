@@ -39,9 +39,9 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
       <td align="center" valign="top">Discuss backend, iOS, or cloud work.</td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/">Talk on LinkedIn →</a></td>
-      <td align="center" valign="top"><a href="https://github.com/srivilliamsai/CRM_Application/issues">CRM issues</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues">PitStop issues</a></td>
-      <td align="center" valign="top"><a href="https://srivilliamsai.vercel.app/">Portfolio →</a></td>
+      <td align="center" valign="top"><a href="https://www.linkedin.com/in/srivilliamsai/">LinkedIn</a></td>
+      <td align="center" valign="top"><a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a></td>
+      <td align="center" valign="top"><a href="https://srivilliamsai.vercel.app/">Portfolio</a></td>
     </tr>
   </tbody>
 </table>
@@ -50,8 +50,8 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 
 | CRM | Carbon Footprint | PitStop |
 |:---:|:---:|:---:|
-| Customer lookup returned HTTP 200 | Log persisted and read back | Order created and listed |
-| [Gateway test](case-studies/crm-application.md#try-it-locally) | [MySQL and Redis tests](case-studies/carbon-footprint.md#try-it-locally) | [Direct API tests](case-studies/pitstop.md#try-it-locally) |
+| Lookup HTTP 200 | Log saved and read | Order saved and listed |
+| [Gateway test](case-studies/crm-application.md#try-it-locally) | [Storage tests](case-studies/carbon-footprint.md#try-it-locally) | [API tests](case-studies/pitstop.md#try-it-locally) |
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
@@ -132,7 +132,7 @@ A roadside-assistance project with Flutter screens for exploring services and Sp
 <tr>
 <td width="50%" valign="top">
 
-[**Flutter app**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
+[**Flutter**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
 
 **Direct API checks**
 
@@ -146,12 +146,12 @@ A roadside-assistance project with Flutter screens for exploring services and Sp
 
 ```mermaid
 flowchart TD
-    Routes["Configured gateway routes"]
+    Routes["Gateway routes"]
     Routes -.-> Orders["Order service"]
     Routes -.-> Emergency["Emergency service"]
 ```
 
-<sub>The service endpoints worked directly. The local gateway returned HTTP 503.</sub>
+<sub>Direct service checks passed. The gateway returned HTTP 503.</sub>
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ flowchart TD
 
 **Glassora.** I built and published a SwiftUI wallpaper app with category browsing, previews, and favorites. [App Store](https://apps.apple.com/in/app/glassora-wallpapers-hd-4k/id6777764126) · [Launch write-up](https://dev.to/srivilliamsai/i-just-launched-my-first-ios-app-after-16-days-in-app-review-f5b)
 
-## 5. AWS and Google&nbsp;Cloud
+## 5. AWS and Google Cloud
 
 **AWS.** I host my portfolio on AWS Amplify and run its assistant backend on AWS Lambda. [Deployment notes](https://github.com/srivilliamsai/portfolio/blob/main/docs/AMPLIFY_RELEASE.md)
 
