@@ -2,9 +2,9 @@
 
 # SRI VILLIAM SAI A
 
-**I build Java backends and native iOS apps with SwiftUI, and work with AWS and Google&nbsp;Cloud.**
+**I build Java and Spring Boot backends and native iOS apps with Swift and SwiftUI. My cloud work includes AWS and Google&nbsp;Cloud.**
 
-My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora and Remolad.
+My projects span customer APIs, carbon tracking, and iOS apps such as Glassora and Remolad.
 
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" />
@@ -17,39 +17,62 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 </p>
 
 <p>
-  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a>
-  <a href="https://srivilliamsai.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge" /></a>
-  <a href="https://x.com/srivilliamsai"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-srivilliamsai-0A66C2?style=for-the-badge" /></a>
+  <a href="https://srivilliamsai.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-24292F?style=for-the-badge" /></a>
+  <a href="https://x.com/srivilliamsai"><img alt="X" src="https://img.shields.io/badge/X-srivilliamsai-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
 </p>
 
 </div>
 
-<table align="center" width="100%">
-  <thead>
-    <tr>
-      <th width="33%" scope="col" align="center"><sub>Hire</sub></th>
-      <th width="34%" scope="col" align="center"><sub>Contribute</sub></th>
-      <th width="33%" scope="col" align="center"><sub>Reach out</sub></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">Java &amp; iOS</td>
-      <td align="center" valign="top">Open an issue</td>
-      <td align="center" valign="top">Talk tech</td>
-    </tr>
-    <tr>
-      <td colspan="3" align="center"><sub><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a> · <a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a> · <a href="https://srivilliamsai.vercel.app/">Portfolio</a></sub></td>
-    </tr>
-  </tbody>
+<table align="center">
+<tr>
+<td width="33%" valign="top">
+
+### Hire
+
+Java backend, native iOS, and full-stack work with Spring Boot, SwiftUI, and React.
+
+</td>
+<td width="33%" valign="top">
+
+### Contribute
+
+Have feedback on a service boundary or local setup? Open an issue.
+
+</td>
+<td width="33%" valign="top">
+
+### Reach out
+
+Happy to discuss backend systems, iOS development, and cloud projects.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Talk on LinkedIn →](https://www.linkedin.com/in/srivilliamsai/)
+
+</td>
+<td valign="top">
+
+[CRM issues](https://github.com/srivilliamsai/CRM_Application/issues) · [PitStop issues](https://github.com/srivilliamsai/pitstop-backend/issues)
+
+</td>
+<td valign="top">
+
+[Portfolio →](https://srivilliamsai.vercel.app/)
+
+</td>
+</tr>
 </table>
 
 <div align="center">
 
-| CRM | Carbon | PitStop |
+| CRM | Carbon Footprint | PitStop |
 |:---:|:---:|:---:|
-| HTTP 200 | Log saved | Order saved |
-| [Route](case-studies/crm-application.md#try-it-locally) | [Logs](case-studies/carbon-footprint.md#try-it-locally) | [API](case-studies/pitstop.md#try-it-locally) |
+| Customer lookup returned HTTP 200 | Log persisted and read back | Order created and listed |
+| [Gateway test](case-studies/crm-application.md#try-it-locally) | [MySQL and Redis tests](case-studies/carbon-footprint.md#try-it-locally) | [Direct API tests](case-studies/pitstop.md#try-it-locally) |
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
@@ -130,26 +153,26 @@ A roadside-assistance project with Flutter screens for exploring services and Sp
 <tr>
 <td width="50%" valign="top">
 
-[**Flutter**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
+[**Flutter app**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
 
 **Direct API checks**
 
 - Create and list a fuel order → the new order appeared as pending
-- Query by severity → HTTP 200 with auth
+- Query emergency reports by severity → HTTP 200 with authentication
 
 </td>
 <td width="50%" valign="top">
 
-**Service routes**
+**Service boundaries**
 
 ```mermaid
 flowchart TD
-    Routes["Gateway routes"]
+    Routes["Configured gateway routes"]
     Routes -.-> Orders["Order service"]
     Routes -.-> Emergency["Emergency service"]
 ```
 
-<sub>Direct checks passed. Gateway returned HTTP 503.</sub>
+<sub>The service endpoints worked directly. The local gateway returned HTTP 503.</sub>
 
 </td>
 </tr>
