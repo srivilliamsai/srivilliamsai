@@ -69,10 +69,39 @@ Happy to discuss backend systems, iOS development, and cloud projects.
 
 <div align="center">
 
-| CRM | Carbon Footprint | PitStop |
-|:---:|:---:|:---:|
-| Customer lookup returned HTTP 200 | Log persisted and read back | Order created and listed |
-| [Gateway test](case-studies/crm-application.md#try-it-locally) | [MySQL and Redis tests](case-studies/carbon-footprint.md#try-it-locally) | [Direct API tests](case-studies/pitstop.md#try-it-locally) |
+<table>
+<thead>
+<tr>
+<th align="center" scope="col">CRM</th>
+<th align="center" scope="col">Carbon Footprint</th>
+<th align="center" scope="col">PitStop</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="top">Customer lookup returned HTTP 200</td>
+<td align="center" valign="top">Log persisted and read back</td>
+<td align="center" valign="top">Order created and listed</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+
+[Gateway test](case-studies/crm-application.md#try-it-locally)
+
+</td>
+<td align="center" valign="top">
+
+[MySQL and Redis tests](case-studies/carbon-footprint.md#try-it-locally)
+
+</td>
+<td align="center" valign="top">
+
+[Direct API tests](case-studies/pitstop.md#try-it-locally)
+
+</td>
+</tr>
+</tbody>
+</table>
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
