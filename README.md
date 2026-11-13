@@ -2,15 +2,18 @@
 
 # SRI VILLIAM SAI A
 
-**I build backend systems with Java and Spring Boot, with a focus on REST APIs, microservices, and service integration.**
+**I build Java and Spring Boot backends and native iOS apps with Swift and SwiftUI. My cloud work includes AWS and Google Cloud.**
 
-Customer lookups through a service gateway. Authenticated carbon logs backed by MySQL. Separate APIs for roadside orders and emergency reports.
+My projects span customer APIs, carbon tracking, and iOS apps such as Glassora and Remolad.
 
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" />
   <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" />
   <img alt="Spring Cloud" src="https://img.shields.io/badge/Spring_Cloud-1C6D44?style=flat-square" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" />
+  <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?style=flat-square&amp;logo=swift&amp;logoColor=white" />
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" />
+  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&amp;logo=googlecloud&amp;logoColor=white" />
 </p>
 
 <p>
@@ -27,7 +30,7 @@ Customer lookups through a service gateway. Authenticated carbon logs backed by 
 
 ### Hire
 
-Java backend and full-stack work with Spring Boot, REST APIs, and React.
+Java backend, native iOS, and full-stack work with Spring Boot, SwiftUI, and React.
 
 [Talk on LinkedIn →](https://www.linkedin.com/in/srivilliamsai/)
 
@@ -45,7 +48,7 @@ Have feedback on a service boundary or local setup? Open an issue.
 
 ### Reach out
 
-Happy to discuss Java, distributed systems, and backend projects.
+Happy to discuss backend systems, iOS development, and cloud projects.
 
 [Portfolio →](https://srivilliamsai.vercel.app/)
 
@@ -170,6 +173,20 @@ flowchart TD
 
 <br />
 
+## 4. Swift and iOS development
+
+**Remolad.** One of my native iOS projects.
+
+**Glassora.** I built and published a SwiftUI wallpaper app with category browsing, previews, and favorites. [App Store](https://apps.apple.com/in/app/glassora-wallpapers-hd-4k/id6777764126) · [Launch write-up](https://dev.to/srivilliamsai/i-just-launched-my-first-ios-app-after-16-days-in-app-review-f5b)
+
+## 5. AWS and Google Cloud
+
+**AWS.** I host my portfolio on AWS Amplify and run its assistant backend on AWS Lambda. [Deployment notes](https://github.com/srivilliamsai/portfolio/blob/main/docs/AMPLIFY_RELEASE.md)
+
+**Google Cloud and Firebase.** I work with Google Cloud and use Firebase to manage Glassora’s wallpaper catalog. [Glassora case study](https://main.d229cwpntq8yz1.amplifyapp.com/glassora)
+
+<br />
+
 ## Writing and background
 
 **Writing.** I wrote about using Kafka events to verify activities and regenerate a resume in a Node.js microservices project. [Project architecture](https://github.com/srivilliamsai/resume-ecosystem-node#%EF%B8%8F-architecture) · [DEV Community article (JSON)](https://dev.to/api/articles/3406775)
@@ -180,6 +197,6 @@ flowchart TD
 
 <div align="center">
 
-`Java` `Spring Boot` `Spring Cloud` `MySQL` `Redis` `Kafka` `React` `Flutter`
+`Java` `Spring Boot` `Spring Cloud` `MySQL` `Redis` `Kafka` `React` `Flutter` `Swift` `SwiftUI` `iOS` `AWS` `Google Cloud` `Firebase`
 
 </div>
