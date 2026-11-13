@@ -27,9 +27,9 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 <table align="center" width="100%">
   <thead>
     <tr>
-      <th width="33%" scope="col" align="center">Hire</th>
-      <th width="34%" scope="col" align="center">Contribute</th>
-      <th width="33%" scope="col" align="center">Reach out</th>
+      <th width="33%" scope="col" align="center"><sub>Hire</sub></th>
+      <th width="34%" scope="col" align="center"><sub>Contribute</sub></th>
+      <th width="33%" scope="col" align="center"><sub>Reach out</sub></th>
     </tr>
   </thead>
   <tbody>
@@ -50,8 +50,8 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
 
 | CRM | Carbon | PitStop |
 |:---:|:---:|:---:|
-| Lookup HTTP 200 | Log saved | Order saved |
-| [Gateway](case-studies/crm-application.md#try-it-locally) | [Storage](case-studies/carbon-footprint.md#try-it-locally) | [API test](case-studies/pitstop.md#try-it-locally) |
+| HTTP 200 | Log saved | Order saved |
+| [Route](case-studies/crm-application.md#try-it-locally) | [Logs](case-studies/carbon-footprint.md#try-it-locally) | [API](case-studies/pitstop.md#try-it-locally) |
 
 <sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
 
