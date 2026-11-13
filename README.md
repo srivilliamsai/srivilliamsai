@@ -39,9 +39,7 @@ My projects include Spring Boot APIs, carbon tracking, and the iOS apps Glassora
       <td align="center" valign="top">Talk tech</td>
     </tr>
     <tr>
-      <td align="center" valign="top"><sub><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a></sub></td>
-      <td align="center" valign="top"><sub><a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a>&nbsp;·&nbsp;<a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a></sub></td>
-      <td align="center" valign="top"><sub><a href="https://srivilliamsai.vercel.app/">Portfolio</a></sub></td>
+      <td colspan="3" align="center"><sub><a href="https://www.linkedin.com/in/srivilliamsai/" title="Talk on LinkedIn">LinkedIn</a> · <a href="https://github.com/srivilliamsai/CRM_Application/issues" title="CRM issues">CRM</a> · <a href="https://github.com/srivilliamsai/pitstop-backend/issues" title="PitStop issues">PitStop</a> · <a href="https://srivilliamsai.vercel.app/">Portfolio</a></sub></td>
     </tr>
   </tbody>
 </table>
