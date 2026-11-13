@@ -78,10 +78,10 @@ A React dashboard backed by Spring Boot services for customer records, leads, an
 
 [**CRM Application**](https://github.com/srivilliamsai/CRM_Application) · [Case study](case-studies/crm-application.md)
 
-| Check | Local result |
-|---|---|
-| Create a customer through the gateway | HTTP 201 |
-| List customers for that company | HTTP 200 with the saved record |
+**Local checks**
+
+- Create a customer through the gateway → HTTP 201
+- List customers by company → HTTP 200 with the saved record
 
 </td>
 <td width="50%" valign="top">
@@ -126,10 +126,10 @@ flowchart TD
 
 [**Carbon Personal Footprint App**](https://github.com/srivilliamsai/CarbonPersonalFootprintApp) · [Case study](case-studies/carbon-footprint.md)
 
-| Check | Local result |
-|---|---|
-| Submit a log with a bearer token | History returned the saved record |
-| Look up an emission factor | Redis held the activity-type cache key |
+**Local checks**
+
+- Submit a log with a bearer token → history returned the saved record
+- Look up an emission factor → Redis held the cache key
 
 </td>
 </tr>
@@ -145,10 +145,10 @@ A roadside-assistance project with Flutter screens for exploring services and Sp
 
 [**Flutter app**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
 
-| Direct API check | Local result |
-|---|---|
-| Create and list a fuel order | The new order appeared as pending |
-| Query emergency reports by severity | HTTP 200 with authentication |
+**Direct API checks**
+
+- Create and list a fuel order → the new order appeared as pending
+- Query emergency reports by severity → HTTP 200 with authentication
 
 </td>
 <td width="50%" valign="top">
