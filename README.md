@@ -1,76 +1,33 @@
-<div align="center">
+# Sri Villiam Sai A
 
-```text
-███████╗██████╗ ██╗    ██╗   ██╗██╗██╗     ██╗     ██╗ █████╗ ███╗   ███╗    ███████╗ █████╗ ██╗
-██╔════╝██╔══██╗██║    ██║   ██║██║██║     ██║     ██║██╔══██╗████╗ ████║    ██╔════╝██╔══██╗██║
-███████╗██████╔╝██║    ██║   ██║██║██║     ██║     ██║███████║██╔████╔██║    ███████╗███████║██║
-╚════██║██╔══██╗██║    ╚██╗ ██╔╝██║██║     ██║     ██║██╔══██║██║╚██╔╝██║    ╚════██║██╔══██║██║
-███████║██║  ██║██║     ╚████╔╝ ██║███████╗███████╗██║██║  ██║██║ ╚═╝ ██║    ███████║██║  ██║██║
-╚══════╝╚═╝  ╚═╝╚═╝      ╚═══╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝
-```
+I build backend systems with Java and Spring Boot, with a focus on REST APIs, microservices, and service integration.
 
-</div>
+## Selected projects
 
-<div align="center">
+### CRM Application
 
-### Software Developer | Full-Stack Engineer
-> *Architecting distributed systems • Building scalable microservices*
+A CRM with a React dashboard and Spring Boot services. The case study follows a customer lookup from Spring Cloud Gateway through Eureka to the customer service and its MySQL database.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/srivilliamsai)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/srivilliamsai)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter)](https://twitter.com/srivilliamsai)
+[Source code](https://github.com/srivilliamsai/CRM_Application) · [CRM case study](case-studies/crm-application.md)
 
-</div>
+### Carbon Personal Footprint App
 
----
+A React app and Spring Boot API for logging daily carbon footprints. MySQL stores user logs, and Redis caches a separate lookup for emission factors.
 
-## `whoami`
+[Source code](https://github.com/srivilliamsai/CarbonPersonalFootprintApp) · [Carbon Footprint case study](case-studies/carbon-footprint.md)
 
-```java
-class Developer {
-    String[] expertise = {
-        "Microservices Architecture", "Distributed Systems",
-        "Event-Driven Design", "Cloud-Native Applications"
-    };
+### PitStop
 
-    Stack backend = new Stack("Java", "Spring Boot", "Node.js", "Kafka");
-    Stack frontend = new Stack("React", "Flutter", "TypeScript");
-    Cloud[] platforms = {AWS, Azure, GCP};
+A roadside-assistance project with a Flutter app and a Spring Boot backend. The backend gives service orders and emergency reports their own API routes and persistence models.
 
-    void build() {
-        design("scalable systems");
-        implement("clean architecture");
-        deploy("production-grade solutions");
-    }
-}
-```
+[Flutter app](https://github.com/srivilliamsai/pitstop) · [Spring Boot backend](https://github.com/srivilliamsai/pitstop-backend) · [PitStop case study](case-studies/pitstop.md)
 
----
+## Technical writing
 
-## `./current-focus.sh`
+**How I built an auto-generating resume system with Node.js microservices and Kafka**
 
-```bash
-# !/bin/bash
+[Project architecture](https://github.com/srivilliamsai/resume-ecosystem-node#%EF%B8%8F-architecture) · [DEV Community article (JSON)](https://dev.to/api/articles/3406775)
 
-pursuing_certifications() {
-    echo "Oracle Cloud Infrastructure:"
-    echo "   Multicloud Architect"
-    echo "   AI Foundations"
-    echo "  ⧗ Data Science | Developer"
-}
+## Contact
 
-working_on() {
-    topics=("microservices" "distributed-systems" "event-driven-architecture")
-    for topic in "${topics[@]}"; do
-        echo "[*] Deep diving into $topic"
-    done
-}
-```
-
----
-
-<div align="center">
-
-**`$ git commit -m "Building the future, one commit at a time"`**
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/srivilliamsai/) · [Portfolio](https://srivilliamsai.vercel.app/)
