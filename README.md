@@ -2,9 +2,9 @@
 
 # SRI VILLIAM SAI A
 
-**I build Java and Spring Boot backends and native iOS apps with Swift and SwiftUI. My cloud work includes AWS and Google&nbsp;Cloud.**
+I turn everyday problems into useful software, from backend systems to native apps.
 
-My projects span customer APIs, carbon tracking, and iOS apps such as Glassora and Remolad.
+My work spans web interfaces, service APIs, event-driven data flows, and native Apple experiences. I focus on clear interfaces, smooth interactions, and software that makes everyday tasks easier.
 
 <p>
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" />
@@ -17,216 +17,36 @@ My projects span customer APIs, carbon tracking, and iOS apps such as Glassora a
 </p>
 
 <p>
-  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-srivilliamsai-0A66C2?style=for-the-badge" /></a>
-  <a href="https://srivilliamsai.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-24292F?style=for-the-badge" /></a>
-  <a href="https://x.com/srivilliamsai"><img alt="X" src="https://img.shields.io/badge/X-srivilliamsai-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/srivilliamsai/"><img alt="LinkedIn: srivilliamsai" src="https://img.shields.io/badge/LinkedIn-srivilliamsai-0A66C2?style=for-the-badge" /></a>
+  <a href="https://main.d229cwpntq8yz1.amplifyapp.com/"><img alt="Portfolio: Visit" src="https://img.shields.io/badge/Portfolio-Visit-24292F?style=for-the-badge" /></a>
+  <a href="https://x.com/srivilliamsai"><img alt="X: srivilliamsai" src="https://img.shields.io/badge/X-srivilliamsai-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" /></a>
 </p>
 
 </div>
 
-<table align="center">
-<tr>
-<td width="33%" valign="top">
-
-### Hire
-
-Java backend, native iOS, and full-stack work with Spring Boot, SwiftUI, and React.
-
-</td>
-<td width="33%" valign="top">
-
-### Contribute
-
-Have feedback on a service boundary or local setup? Open an issue.
-
-</td>
-<td width="33%" valign="top">
-
-### Reach out
-
-Happy to discuss backend systems, iOS development, and cloud projects.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Talk on LinkedIn →](https://www.linkedin.com/in/srivilliamsai/)
-
-</td>
-<td valign="top">
-
-[CRM issues](https://github.com/srivilliamsai/CRM_Application/issues) · [PitStop issues](https://github.com/srivilliamsai/pitstop-backend/issues)
-
-</td>
-<td valign="top">
-
-[Portfolio →](https://srivilliamsai.vercel.app/)
-
-</td>
-</tr>
-</table>
-
 <div align="center">
 
-<table>
-<thead>
-<tr>
-<th align="center" scope="col">CRM</th>
-<th align="center" scope="col">Carbon Footprint</th>
-<th align="center" scope="col">PitStop</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center" valign="top">Customer lookup returned HTTP 200</td>
-<td align="center" valign="top">Log persisted and read back</td>
-<td align="center" valign="top">Order created and listed</td>
-</tr>
-<tr>
-<td align="center" valign="top">
+## My first iOS app — Glassora
 
-[Gateway test](case-studies/crm-application.md#try-it-locally)
+I built and published Glassora, a native SwiftUI app for discovering and saving HD and 4K wallpapers.
 
-</td>
-<td align="center" valign="top">
+Browse collections · Preview wallpapers · Save favorites
 
-[MySQL and Redis tests](case-studies/carbon-footprint.md#try-it-locally)
-
-</td>
-<td align="center" valign="top">
-
-[Direct API tests](case-studies/pitstop.md#try-it-locally)
-
-</td>
-</tr>
-</tbody>
-</table>
-
-<sub>Results from local API smoke tests. The linked case studies show the requests and setup.</sub>
+<p>
+  <a href="https://apps.apple.com/in/app/glassora-wallpapers-hd-4k/id6777764126"><img alt="Download Glassora on the App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="120" height="40" /></a>
+</p>
 
 </div>
 
-## 1. CRM Application
+## Open-source contributions
 
-A React dashboard backed by Spring Boot services for customer records, leads, and sales activity. I built the customer API and traced how Spring Cloud Gateway resolves it by service name through Eureka.
+**9 merged pull requests across 4 external open-source projects**
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I contribute to open-source projects by fixing bugs, improving performance, adding tests, and building useful tools.
 
-[**CRM Application**](https://github.com/srivilliamsai/CRM_Application) · [Case study](case-studies/crm-application.md)
-
-**Local checks**
-
-- Create a customer through the gateway → HTTP 201
-- List customers by company → HTTP 200 with the saved record
-
-</td>
-<td width="50%" valign="top">
-
-**Request path**
-
-```mermaid
-flowchart TD
-    Request["Customer lookup"] --> Gateway["Gateway"]
-    Gateway -.-> Eureka["Eureka"]
-    Gateway --> Customer["Customer service"]
-    Customer --> MySQL["MySQL"]
-```
-
-<sub>The auth service validates JWTs for its protected endpoints. The customer lookup uses the company ID as a query filter.</sub>
-
-</td>
-</tr>
-</table>
-
-## 2. Carbon Personal Footprint App
-
-A React dashboard and Spring Boot API for recording the footprint of transport, diet, and energy use. I built the dashboard and API as part of my Infosys internship project.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Request path**
-
-```mermaid
-flowchart TD
-    Dashboard["React dashboard"] --> Logs["Carbon log API"]
-    Logs --> Calculation["Calculate total"]
-    Calculation --> MySQL["Save to MySQL"]
-```
-
-<sub>The separate emission-factor endpoint caches its simulated lookup in Redis.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-[**Carbon Personal Footprint App**](https://github.com/srivilliamsai/CarbonPersonalFootprintApp) · [Case study](case-studies/carbon-footprint.md)
-
-**Local checks**
-
-- Submit a log with a bearer token → history returned the saved record
-- Look up an emission factor → Redis held the cache key
-
-</td>
-</tr>
-</table>
-
-## 3. PitStop
-
-A roadside-assistance project with Flutter screens for exploring services and Spring Boot modules for orders and emergency reports.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-[**Flutter app**](https://github.com/srivilliamsai/pitstop) · [**Backend**](https://github.com/srivilliamsai/pitstop-backend) · [Case study](case-studies/pitstop.md)
-
-**Direct API checks**
-
-- Create and list a fuel order → the new order appeared as pending
-- Query emergency reports by severity → HTTP 200 with authentication
-
-</td>
-<td width="50%" valign="top">
-
-**Service boundaries**
-
-```mermaid
-flowchart TD
-    Routes["Configured gateway routes"]
-    Routes -.-> Orders["Order service"]
-    Routes -.-> Emergency["Emergency service"]
-```
-
-<sub>The service endpoints worked directly. The local gateway returned HTTP 503.</sub>
-
-</td>
-</tr>
-</table>
-
-## 4. Swift and iOS development
-
-**Remolad.** One of my native iOS projects.
-
-**Glassora.** I built and published a SwiftUI wallpaper app with category browsing, previews, and favorites. [App Store](https://apps.apple.com/in/app/glassora-wallpapers-hd-4k/id6777764126) · [Launch write-up](https://dev.to/srivilliamsai/i-just-launched-my-first-ios-app-after-16-days-in-app-review-f5b)
-
-## 5. AWS and Google Cloud
-
-**AWS.** I host my portfolio on AWS Amplify and run its assistant backend on AWS Lambda. [Deployment notes](https://github.com/srivilliamsai/portfolio/blob/main/docs/AMPLIFY_RELEASE.md)
-
-**Google Cloud and Firebase.** I work with Google Cloud and use Firebase to manage Glassora’s wallpaper catalog. [Glassora case study](https://main.d229cwpntq8yz1.amplifyapp.com/glassora)
-
-## Writing and background
-
-**Writing.** I wrote about using Kafka events to verify activities and regenerate a resume in a Node.js microservices project. [Project architecture](https://github.com/srivilliamsai/resume-ecosystem-node#%EF%B8%8F-architecture) · [DEV Community article (JSON)](https://dev.to/api/articles/3406775)
-
-**Background.** My Infosys internship project included building the Spring Boot API and React dashboard for the carbon footprint tracker. [Internship project](case-studies/carbon-footprint.md)
-
-<div align="center">
-
-`Java` `Spring Boot` `Spring Cloud` `MySQL` `Redis` `Kafka` `React` `Flutter` `Swift` `SwiftUI` `iOS` `AWS` `Google Cloud` `Firebase`
-
-</div>
+| Project | PRs | Contributions |
+|---|:---:|---|
+| AWS Durable Execution SDK for Python | 1 | [Typing overloads for both decorator forms · #935](https://github.com/aws/aws-durable-execution-sdk-python/pull/935) |
+| Hanzo ML | 2 | [CUDA tensor size protection · #31](https://github.com/hanzoai/ml/pull/31) · [Zero-copy CPU tensor serialization · #34](https://github.com/hanzoai/ml/pull/34) |
+| Jenkins AI Chatbot Plugin | 1 | [Unit tests for build failure analysis · #532](https://github.com/jenkinsci/resources-ai-chatbot-plugin/pull/532) |
+| Workday Developer Program | 5 | [PTO policy agent skill · #5](https://github.com/Workday/WorkdayDeveloperProgram/pull/5) · [Milestone celebrations · #14](https://github.com/Workday/WorkdayDeveloperProgram/pull/14) · [Peer kudos Home Card · #16](https://github.com/Workday/WorkdayDeveloperProgram/pull/16) · [Developer agent skills · #17](https://github.com/Workday/WorkdayDeveloperProgram/pull/17) · [Workplace accessibility passport · #22](https://github.com/Workday/WorkdayDeveloperProgram/pull/22) |
